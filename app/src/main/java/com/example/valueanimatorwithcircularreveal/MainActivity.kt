@@ -69,4 +69,4 @@ class MainActivity : AppCompatActivity() {
             circularRevealAnim.start()
         }
     }
-
+}
