@@ -5,10 +5,11 @@
      xmlns:tools="http://schemas.android.com/tools"
      android:layout_width="match_parent"
      android:layout_height="match_parent"
-     android:background="#000000"
+     android:background="@color/white"
      android:id="@+id/vRoot">
    
     <include
+            android:visibility="gone"
         layout="@layout/toolbar_search"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -20,7 +21,10 @@
         android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"
         android:visibility="invisible"/>
-   
+
+    <include
+            android:id="@+id/vGmailSearch"
+        layout="@layout/gmail_search_box"/>
     <include
         layout="@layout/main_layout"
         android:layout_width="match_parent"

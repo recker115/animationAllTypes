@@ -19,7 +19,9 @@
                   android:layout_marginEnd="16dp"
                   android:layout_marginRight="16dp"
                   android:layout_marginLeft="24dp"
-                  android:hint="Search"/>
+                  android:hint="Search"
+                  android:id="@+id/etSearch"
+        />
 
     </androidx.appcompat.widget.Toolbar>
 </com.google.android.material.appbar.AppBarLayout>
